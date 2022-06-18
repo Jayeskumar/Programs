@@ -1,6 +1,6 @@
 import java.util.*;
 class Solution {
-    static int sumOfPrimeIndexValuesInAnArray(int input[]){
+  /*   static int sumOfPrimeIndexValuesInAnArray(int input[]){
 		int sum=0;
 		for(int i=2;i<input.length;i++){
 			if(isPrime(i))
@@ -91,5 +91,5 @@ class Solution {
 
 	public static void main(String[] args){
 		int arr[]={}
-	}
+	}*/
 }
