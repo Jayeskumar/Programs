@@ -1,3 +1,4 @@
+import java.util.*;
 class first_repeated_element_from_the_tail {
     static int firstRepeatedElement(int input1[]){
         HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
