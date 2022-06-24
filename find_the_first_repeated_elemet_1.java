@@ -11,10 +11,12 @@ class find_the_first_repeated_elemet_1{
                 map.put(input1[i],1);
             }
 
+
         }
         if(map.isEmpty())
         return 0;
         return input1[0];
     }
+    
     
 }
