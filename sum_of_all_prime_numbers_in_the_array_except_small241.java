@@ -1,5 +1,5 @@
 public class sum_of_all_prime_numbers_in_the_array_except_small241 {
-    static int sumOfAllPrimeNumbersInTheArrayExceptTheLargestOne(int input1[]){
+    static int sumOfAllPrimeNumbersInTheArrayExceptTheSmallestOne(int input1[]){
 		int sum=0;
         
         int smallest=Integer.MAX_VALUE;
@@ -22,6 +22,6 @@ public class sum_of_all_prime_numbers_in_the_array_except_small241 {
 		return true;
     }
     public static void main(String[] args){
-        System.out.println(sumOfAllPrimeNumbersInTheArrayExceptTheLargestOne(new int[]{10,41,18,50,43,31,29,25,59,96,67}));
+        System.out.println(sumOfAllPrimeNumbersInTheArrayExceptTheSmallestOne(new int[]{10,41,18,50,43,31,29,25,59,96,67}));
     }
 }

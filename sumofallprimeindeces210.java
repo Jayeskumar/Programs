@@ -1,5 +1,5 @@
 public class sumofallprimeindeces210{
-    static int sumOfNonPrimeIndexValuesInAnArray(int input1[]) {
+    static int sumOfPrimeIndexValuesInAnArray(int input1[]) {
         int sum = 0;
         for (int i = 2; i < input1.length; i++) {
             if (isPrime(i))
@@ -18,7 +18,7 @@ public class sumofallprimeindeces210{
 		return true;
 	}
     public static void main(String[] args){
-        System.out.println(sumOfNonPrimeIndexValuesInAnArray(new int[]{10,20,30,40,50,60,70,80,90,100}));
+        System.out.println(sumOfPrimeIndexValuesInAnArray(new int[]{10,20,30,40,50,60,70,80,90,100}));
     }
     
 }
