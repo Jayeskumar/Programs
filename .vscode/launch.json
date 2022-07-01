@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sumofallprimeindeces",
+            "request": "launch",
+            "mainClass": "sumofallprimeindeces",
+            "projectName": "Programs_93b09a71"
+        },
+        {
+            "type": "java",
             "name": "Launch leetcode",
             "request": "launch",
             "mainClass": "leetcode",
