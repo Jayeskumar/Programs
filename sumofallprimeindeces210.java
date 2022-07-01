@@ -1,4 +1,4 @@
-public class sumofallprimeindeces {
+public class sumofallprimeindeces210{
     static int sumOfNonPrimeIndexValuesInAnArray(int input1[]) {
         int sum = 0;
         for (int i = 2; i < input1.length; i++) {
