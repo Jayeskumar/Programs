@@ -27,7 +27,4 @@ public class find_pin63 {
         System.out.println(finPin(3521,2452,1352,38));
     }
     
-    
-    
-    
 }

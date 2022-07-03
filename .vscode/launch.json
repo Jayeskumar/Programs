@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sol",
+            "request": "launch",
+            "mainClass": "MileStone3.sol",
+            "projectName": "Programs_93b09a71"
+        },
+        {
+            "type": "java",
             "name": "Launch sum_of_all_prime_numbers_in_the_array_except_small241",
             "request": "launch",
             "mainClass": "sum_of_all_prime_numbers_in_the_array_except_small241",
