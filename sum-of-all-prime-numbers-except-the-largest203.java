@@ -1,7 +1,7 @@
 class SumOfAllPrimeNumbersExceptTheLargestNumber{
     static int sumOfAllPrimeNumbersInTheArrayExceptTheLargestOne(int input1[]){
 		int sum=0;
-		int largest=input1[0];
+		int largest=Integer.MIN_VALUE;
 		for(int i=0;i<input1.length;i++){
 			if(isPrime(input1[i])){
 				if(input1[i]>largest)
