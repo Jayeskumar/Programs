@@ -62,7 +62,6 @@ public class messagecontrolrobotmovement {
 			
 			output.delete(0, output.length());
 			output.append(currX + "-" + currY + "-" + currD);
-			System.out.println(output);
 		}
 		
 		return output.toString();
