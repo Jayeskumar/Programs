@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public public int sumOfNonPrimeIndexValues(int[] input1,int input2){
     // Read only region end

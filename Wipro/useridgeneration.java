@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public class useridgeneration {
     public String userIdGeneration(String input1,String input2,int input3,int input4){

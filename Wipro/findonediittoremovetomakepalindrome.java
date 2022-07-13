@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public class findonediittoremovetomakepalindrome {
     public int digitRemove_Palin(int input1){

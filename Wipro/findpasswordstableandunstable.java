@@ -1,4 +1,5 @@
-package MileStone3;
+package Wipro;
+import java.util.*;
 
 public class findpasswordstableandunstable {
     public int findPassword(int input1,int input2,int input3,int input4,int input5){
@@ -43,7 +44,7 @@ public class findpasswordstableandunstable {
 				break;
 			}
 		}
-		System.out.println("firstFreq: " + firstFreq);
+		
 		
 		for (int i = 0; i < 10; i++) {
 			if (freq[i] != 0 && freq[i] != firstFreq) {

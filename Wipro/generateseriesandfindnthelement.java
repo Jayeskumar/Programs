@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public class generateseriesandfindnthelement {
     public int seriesN(int input1,int input2,int input3,int input4){

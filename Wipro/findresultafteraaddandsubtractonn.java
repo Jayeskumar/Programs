@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public class findresultafteraaddandsubtractonn {
     public int AddSub(int input1,int input2){

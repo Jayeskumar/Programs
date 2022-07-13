@@ -1,4 +1,4 @@
-package MileStone3;
+package Wipro;
 
 public class nambiarnumbergenerator {
     public int nnGenerator(String input1){
