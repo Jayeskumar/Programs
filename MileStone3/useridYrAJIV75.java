@@ -34,82 +34,52 @@ Step3 -Toggle the alphabet in the user-id. So,user-id = YrAJIV75
 class UserId
 {
 public String userIdGeneration(String input1,String input2,int input3,int input4){
-
-
-
     int s1=input1.length();
-int s2=input2.length();
-String longer="";
-String smaller="";
-String output1="";
-if(s1==s2)
-{
-if(input1.compareTo(input2)>0)
-{
-longer=input1;
-smaller=input2;
+    int s2=input2.length();
+    String longer="";
+    String smaller="";
+    String output1="";
+    if(s1==s2)
+    {
+    if(input1.compareTo(input2)>0)
+    {
+    longer=input1;
+    smaller=input2;
+    }
+    else
+    {
+    longer=input2;
+    smaller=input1;
+    }
+    }
+    if(s1>s2){
+    longer=input1;
+    smaller=input2;
+    }
+    else if(s1<s2)
+    {
+    longer=input2;
+    smaller=input1;
+    }
+    String pin=input3+"";
+    String output=smaller.charAt(smaller.length()-1)+longer+pin.charAt
+    (input4-1)+pin.charAt(pin.length()-input4);
+    for(int i=0;i<output.length();i++)
+    {
+    if(Character.isLowerCase(output.charAt(i)))
+    {
+    output1+=Character.toUpperCase
+    (output.charAt(i));
+    }
+    else
+    {
+    output1+=Character.toLowerCase
+    (output.charAt(i));
+    }
+    }
+    return output1;
+} 
 }
-else
-{
-longer=input2;
-smaller=input1;
-}
-}
-if(s1>s2){
-longer=input1;
-smaller=input2;
-}
-else if(s1<s2)
-{
-longer=input2;
-smaller=input1;
-}
-String pin=input3+"";
-String output=smaller.charAt(smaller.length()-1)+longer+pin.charAt
-(input4-1)+pin.charAt(pin.length()-input4);
-for(int i=0;i<output.length();i++)
-{
-if(Character.isLowerCase(output.charAt(i)))
-{
-output1+=Character.toUpperCase
-(output.charAt(i));
-}
-else
-{
-output1+=Character.toLowerCase
-(output.charAt(i));
-}
-}
-//return output1;
-int size1=input1.length();
-int size2=input2.length();
-String l="";
-String s="";
-String res="";
-if(size1==size2)
-{
-if(input1.compareTo(input2)>0)
-{
-l=input1;
-s=input2;
-
-}
-else
-{
-l=input2;
-s=input1;
-}
-}
-if(size1>size2){
-l=input1;
-s=input2;
-}
-else if(size1<size2)
-{
-l=input2;
-s=input1;
-}
-String pin1=input3+"";
 
 public static void main(String[] args) {
 }
