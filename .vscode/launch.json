@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "MileStone3.Main",
+            "projectName": "Programs_93b09a71"
+        },
+        {
+            "type": "java",
             "name": "Launch sol",
             "request": "launch",
             "mainClass": "MileStone3.sol",

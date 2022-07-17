@@ -1,6 +1,4 @@
-package MileStone3;
-
-public class stringreversewordsandcase {
+class Main{
     public static String reverseWordsAndCase(String input1,int input2){
         String output1="";
 	String[] words=input1.split("\\s");
@@ -67,6 +65,6 @@ boolean c=true;
         return output1;
         }
     public static void main(String[] args) {
-        System.out.println(reverseWordsAndCase("Wipro Technologies Banglore",1));
+        System.out.println(reverseWordsAndCase("Wipro Technologies, Banglore",1));
     }    
 }
