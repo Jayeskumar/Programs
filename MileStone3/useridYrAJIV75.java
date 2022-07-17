@@ -79,7 +79,6 @@ public String userIdGeneration(String input1,String input2,int input3,int input4
     }
     return output1;
 } 
-}
 
 public static void main(String[] args) {
 }
